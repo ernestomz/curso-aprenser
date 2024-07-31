@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Roboto:wght@400;900&display=swap');
+
+:root {
+    --font-titlle: "Belleza", sans-serif;
+    --font-text: "Roboto", sans-serif;
+    --color-escola: #01386b;
+    --color-text: #ccc;
+}
+
+html, body {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 62.5%;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+
+.header__cabecalho--logo {
+    margin: 1rem 0 2rem 5rem;
+}
+
+.header__cabecalho--menu {
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+    margin: 1rem 5rem 2rem 0;
+}
+
+.header__cabecalho--menu li {
+    padding: 1rem;
+    margin: 2rem 0 2rem 0;
+}
+
+.header__cabecalho--menu a {
+    border: 0.2rem solid #ffd700;
+    border-radius: 0.2rem;
+    padding: 1.6rem;
+    text-decoration: none;
+    font-family: var(--font-titlle);
+    font-size: 1.9rem;
+    text-transform: uppercase;
+    color: #ffd700;
+}
+
+.header__cabecalho--menu a:hover {
+    outline: 0.5rem solid #ffd700;
+}
+
+.header__information {
+    display: flex;
+    gap: 1em;
+    background-image: linear-gradient(white, yellow);
+}
+
+.header__information--text h1 {
+    font-family: var(--font-titlle);
+    font-size: 12em;
+    letter-spacing: 0.8rem;
+    line-height: 1.5em;
+    margin: 15rem 0 5rem 5rem;
+}
+
+.header__information__text--destaced {
+    text-transform: uppercase;
+}
+
+.header__information--text a {
+    margin: 5rem 0 0 5rem;
+    text-decoration: none;
+    font-family: var(--font-text);
+    font-size: 2rem;
+    background-color: #ffd700;
+    color: black;
+    padding: 2rem 4rem;
+    border-radius: 0.5em;
+}
+
+.main__cursos {
+    padding-top: 8px;
+}
+
+.main__cursos h1{
+    text-align: center;
+    margin: 10rem 0;
+    font-family: var(--font-titlle);
+    font-size: 5rem;
+    letter-spacing: 0.4rem;
+}
+
+.main__cursos--cards {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10rem;
+}
+
+.main__cursos--cards article {
+    width: min-content;
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    box-shadow: 0.5rem 0 0.9rem gray;
+    padding-bottom: 6rem;
+}
+
+.main__cursos--cards h2 {
+    font-family: var(--font-titlle);
+    font-size: 2.9rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.main__cursos--cards p {
+    font-family: var(--font-text);
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+}
+
+.main__button {
+    text-align: center;
+    margin-bottom: 20rem;
+}
+
+.main__cursos a {
+    text-decoration: none;
+    font-family: var(--font-text);
+    font-size: 2.5rem;
+    background-color: #ffd700;
+    color: black;
+    padding: 1.5rem 3rem;
+    border-radius: 0.5rem;
+    margin-bottom: 10rem;
+}
+
+.main__cursos a:hover {
+    outline: 0.5rem solid black;
+}
+
+.main__escola {
+    display: flex;
+    background-color: var(--color-escola);
+    margin-bottom: 8rem;
+    padding-top: 8px;
+}
+
+.main__escola img {
+    padding-top: 10rem;
+}
+
+.main__escola--information h1 {
+    color: white;
+    font-family: var(--font-titlle);
+    font-size: 5rem;
+    letter-spacing: 0.2rem;
+    margin: 10rem 0 5rem 5rem;
+}
+
+.main__escola--information p {
+    color: white;
+    font-family: var(--font-text);
+    font-size: 1.8rem;
+    font-weight: lighter;
+    line-height: 2.8rem;
+    letter-spacing: 0.2rem;
+    margin: 0 3rem 0 5.5rem;
+    padding-bottom: 3rem;
+}
+
+.main__contatos {
+    margin: 0 auto;
+    width: fit-content;
+    padding-bottom: 5rem;
+    padding-top: 10rem;
+}
+
+.main__contatos h1 {
+    text-align: center;
+    font-family: var(--font-titlle);
+    font-size: 4.5rem;
+    letter-spacing: 0.3rem;
+    padding-bottom: 3rem;
+}
+
+.main__contatos img {
+    margin-bottom: 2rem;
+}
+
+.main__contatos p {
+    text-align: right;
+    font-family: var(--font-titlle);
+    font-size: 1.9rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.1rem;
+    margin: 0;
+}
+
+footer p {
+    margin: 0;
+    text-align: center;
+    font-family: var(--font-text);
+    font-size: 2rem;
+    background-color: black;
+    color: white;
+    padding: 6rem 0;
+}
